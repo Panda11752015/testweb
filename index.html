@@ -1195,7 +1195,7 @@ Build a complete, detailed time-blocked schedule.`;
         'anthropic-dangerous-direct-browser-access': 'true'
       },
       body: JSON.stringify({
-        model: 'claude-sonnet-4-20250514',
+        model: 'claude-haiku-4-5',
         max_tokens: 4000,
         system: systemPrompt,
         messages: [{ role: 'user', content: userPrompt }]
@@ -1451,7 +1451,7 @@ Return ONLY valid JSON matching this schema (single block object, no array):
         'anthropic-dangerous-direct-browser-access': 'true'
       },
       body: JSON.stringify({
-        model: 'claude-sonnet-4-20250514',
+        model: 'claude-haiku-4-5',
         max_tokens: 1000,
         messages: [{ role: 'user', content: prompt }]
       })
