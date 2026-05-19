@@ -81,7 +81,7 @@ Ready to paste into **Notion**, **Obsidian**, **Roam**, **Logseq**, or any Markd
 ## 🧩 Tech Stack
 
 - Vanilla HTML/CSS/JS (zero dependencies)
-- [Claude API](https://docs.anthropic.com) — `claude-sonnet-4-20250514`
+- [Claude API](https://docs.anthropic.com) — `claude-haiku-4-5`
 - Google Fonts: Syne + DM Sans + DM Mono
 - Fully client-side — works as a static file
 
